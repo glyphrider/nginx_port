@@ -1,0 +1,7 @@
+app/*/deps
+erl_crash.dump
+ebin
+*~
+deps
+log
+node/proxy
