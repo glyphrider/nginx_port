@@ -1,11 +1,12 @@
 {application, nginx,
  [
-  {description, ""},
-  {vsn, "1"},
+  {description, "nginx reverse-proxy controller"},
+  {vsn, "8.1.0"},
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+		  lager
                  ]},
   {mod, { nginx_app, []}},
   {env, []}
